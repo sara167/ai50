@@ -28,10 +28,6 @@ Epoch 10/10
 10656/10656 - 2s - loss: 0.1392 - accuracy: 0.9606
 ```
 
-## Video
-
-[![Project 5: Traffic Video](http://img.youtube.com/vi/6ehpn1vae38/0.jpg)](https://youtu.be/6ehpn1vae38)
-
 ## Background
 
 As research continues in the development of self-driving cars, one of the key challenges is computer vision, allowing these cars to develop an understanding of their environment from digital images. In particular, this involves the ability to recognize and distinguish road signs – stop signs, speed limit signs, yield signs, and more.
@@ -68,6 +64,8 @@ You should not modify anything else in `traffic.py` other than the functions the
 Data provided by [J. Stallkamp, M. Schlipsing, J. Salmen, and C. Igel. The German Traffic Sign Recognition Benchmark: A multi-class classification competition. In Proceedings of the IEEE International Joint Conference on Neural Networks, pages 1453–1460. 2011](http://benchmark.ini.rub.de/index.php?section=gtsrb&subsection=dataset#Acknowledgements)
 
 --------------------------------------------------------
+
+## Notes
 
 At first, I experimented with the following setup: 
 1. A convolutional layer, 32 filters using a 3x3 kernel, with relu activation 
