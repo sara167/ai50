@@ -1,3 +1,19 @@
+# Project 0a: Degrees
+
+Write a program that determines how many “degrees of separation” apart two actors are.
+
+```
+$ python degrees.py large
+Loading data...
+Data loaded.
+Name: Emma Watson
+Name: Jennifer Lawrence
+3 degrees of separation.
+1: Emma Watson and Brendan Gleeson starred in Harry Potter and the Order of the Phoenix
+2: Brendan Gleeson and Michael Fassbender starred in Trespass Against Us
+3: Michael Fassbender and Jennifer Lawrence starred in X-Men: First Class
+```
+
 ## Background
 
 According to the [Six Degrees of Kevin Bacon](https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon) game, anyone in the Hollywood film industry can be connected to Kevin Bacon within six steps, 
